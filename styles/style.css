@@ -15,7 +15,7 @@ body {
   background-color: gray;
   width: 35%;
   height: 297mm;
-  background: linear-gradient(#46525f 30%, rgb(71, 113, 124) 60%);
+  background: linear-gradient(#071727 30%, rgb(71, 113, 124) 60%);
   gap: 70px;
 }
 .cv .left-info {
@@ -48,7 +48,7 @@ body {
 }
 .cv .right .üst .ad {
   margin-left: 35px;
-  margin-top: 45px;
+  margin-top: 25px;
   font-family: inter;
 }
 .cv .right .üst .icon {
@@ -62,27 +62,39 @@ body {
   margin-left: 30px;
   margin-right: 30px;
   font-family: inter;
+  display: flex;
+  flex-direction: column;
 }
 .cv .right .alt h3 {
-  margin-top: 80px;
+  margin-top: 50px;
 }
 .cv .right .alt-1 {
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+.cv .right .alt-1-mat {
+  margin-right: 75px;
+}
+.cv .right .alt-1-canlı {
+  margin-left: 100px;
+}
 .cv .right .alt-2 {
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
 }
-.cv .right .alt-2 .altt {
+.cv .right .alt-2-dan {
   margin-left: 30px;
+}
+.cv .right .alt-2-git {
+  margin-left: 100px;
 }
 .cv .right .alt-3 {
-  margin-top: 25px;
+  margin-top: 5px;
   display: flex;
+  justify-content: space-between;
 }
-.cv .right .alt-3 .alttt {
-  margin-left: 30px;
+.cv .right .alt-3 .altt {
+  margin-left: 140px;
 }/*# sourceMappingURL=style.css.map */

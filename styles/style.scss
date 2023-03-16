@@ -14,7 +14,7 @@ body {
     background-color: gray;
     width: 35%;
     height: 297mm;
-    background: linear-gradient(#46525f (30%), rgb(71, 113, 124) (60%));
+    background: linear-gradient(#071727 (30%), rgb(71, 113, 124) (60%));
     gap: 70px;
     &-info {
       margin-left: 20px;
@@ -46,7 +46,7 @@ body {
       align-items: center;
       .ad {
         margin-left: 35px;
-        margin-top: 45px;
+        margin-top: 25px;
         font-family: inter;
       }
       .icon {
@@ -61,30 +61,45 @@ body {
       margin-left: 30px;
       margin-right: 30px;
       font-family: inter;
+      display: flex;
+      flex-direction: column;
+      
       h3 {
-        margin-top: 80px;
+        margin-top: 50px;
       }
 
       &-1 {
-        margin-top: 25px;
+        margin-top: 5px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-      }
-      &-2 {
-        margin-top: 25px;
-        display: flex;
-        .altt {
-          margin-left: 30px;
+        &-mat{
+          margin-right: 75px;
+        }
+        &-canlı{
+          margin-left: 100px;
         }
       }
+      &-2 {
+        margin-top: 5px;
+        display: flex;
+        &-dan{
+          margin-left: 30px;
+        }
+        &-git{
+          margin-left: 100px;
+        }
+        
+      }
       &-3 {
-                margin-top: 25px;
+                margin-top: 5px;
                 display: flex;
-                .alttt {
-                  margin-left: 30px;
+                justify-content: space-between;
+                .altt{
+                  margin-left: 140px;
                 }
               }
+
     }
   }
 }
